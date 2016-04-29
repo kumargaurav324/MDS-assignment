@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.metadesignassignment.fragments.SignUp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="60dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_name"
+            android:hint="@string/firstname"
+            android:inputType="textNoSuggestions"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/last_name"
+            android:hint="@string/lastname"
+            android:layout_marginTop="20dp"
+            android:inputType="textNoSuggestions"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:hint="@string/email"
+            android:layout_marginTop="20dp"
+            android:inputType="textNoSuggestions|textEmailAddress"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup"
+            android:text="@string/signup"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

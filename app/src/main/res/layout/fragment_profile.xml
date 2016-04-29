@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.metadesignassignment.fragments.Profile"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="60dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:hint="@string/address"
+            android:inputType="textNoSuggestions"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/number"
+            android:hint="@string/number"
+            android:layout_marginTop="20dp"
+            android:inputType="textNoSuggestions|phone"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/designation"
+            android:hint="@string/designation"
+            android:layout_marginTop="20dp"
+            android:inputType="textNoSuggestions"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/depart"
+            android:hint="@string/depart"
+            android:layout_marginTop="20dp"
+            android:inputType="textNoSuggestions"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/income"
+            android:hint="@string/income"
+            android:layout_marginTop="20dp"
+            android:inputType="textNoSuggestions|number"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:text="@string/logout"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>
